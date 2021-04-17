@@ -65,33 +65,8 @@
     width: 350px;
 
  }
- /* .about {
-     flex-grow: 3;
-     justify-content: center;
-     align-self: auto, flex-start; 
-     font-family: 'Raleway', sans-serif; 
- }  */
-
- /* .column {
-        float: center;
-        width: 33.33%;
-      } */
-      
-/* .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }  */
-
-/* .about-container {
-        display: flex;
-        justify-content: center;
-        font-family: "Raleway", sans-serif;
-
-      } */
-
-
-.container-item {
+ 
+ .container-item {
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -99,18 +74,18 @@
 
  }
 
- .container-item-1 {
-    /* float: left; */
+/* .container-item-1 {
+    
 
  }
 
- .container-item-2 {
-    /* float: center; */
+.container-item-2 {
+    
  }
 
- .container-item-3 {
-     /* float: right; */
- }
+.container-item-3 {
+
+ } */
 
  .footer {
     font-family: 'Raleway', sans-serif;
