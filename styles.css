@@ -95,35 +95,22 @@
     display: flex;
     justify-content: center;
     margin: 10px;
-    border: 3px solid #ac6644;
+    font-family: 'Raleway';
+
  }
 
  .container-item-1 {
-    float: left;
-    font-family: 'League Script' cursive;
-
+    /* float: left; */
 
  }
 
  .container-item-2 {
-    float: center;
-    border: 2px solid #ac6644
+    /* float: center; */
  }
 
  .container-item-3 {
-     float: right;
+     /* float: right; */
  }
-/* .rectangle {
-    display: center;
-    height: 300px;
-    width: 500px;
-    background-color: #22333b;
-    align-items: center;
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-    color: #F7EDE2
-    
- } */
 
  .footer {
     font-family: 'Raleway', sans-serif;
@@ -134,12 +121,6 @@
     padding-top: 20px;
    
     }
-/* .paragraph {
-    font-family: 'Raleway', sans-serif;
-    color: #415458;
-    text-align: left;
-    font-size: 30px;
-} */
 
 .social-icons {
     display: flex;
