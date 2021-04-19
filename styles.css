@@ -16,11 +16,19 @@
     font-family: 'Raleway', sans-serif;
     color: #8a817c;
 }
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .navigation-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px 30px;
+    background-color: #fff;
  }
 
 .nav-link a{
@@ -115,7 +123,11 @@
     display: flex;
     padding-top: 50px;
     justify-content: space-between;
-    height: 500px;
-    width: 350px;
 
+
+}
+
+.portfolio-img {
+        height: 500px;
+    width: 350px;
 }
