@@ -128,6 +128,32 @@
 }
 
 .portfolio-img {
-        height: 500px;
+    height: 500px;
     width: 350px;
+}
+
+.about-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+
+
+}
+
+.container-item {
+    height: 500px;
+    width: 350px;
+
+}
+
+.hello {
+    font-family: 'Raleway';
+    font-size: 50px;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    text-decoration:
 }
