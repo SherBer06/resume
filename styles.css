@@ -75,19 +75,29 @@
     }
 
 
-/* .welcome-img {
+.welcome-img {
     display: flex;
     padding-top: 50px;
     justify-content: center;
 }
 
-.index-img {
+/* .content {
+    position: relative;
+    top: 0;
+    background: #fff;
+    background: rgba(0,0,0,0.5);
+    color: #415458;
+    width: 100%;
+    padding: 20px;
+} */
+
+ .index-img {
     height: 400px;
     width: 800px;
     border: 1px solid #8a817c;
     padding: 10px;
     box-shadow: 5px 10px 18px #8a817c;
-} */
+} 
 
 .profile-pic {
     padding-top: 50px;
@@ -109,11 +119,10 @@
  }
 
 .footer {
+    display: flex;
     font-family: 'Raleway', sans-serif;
     color: #84A592;
-    width: 100%;
-    position: right;
-    bottom: 5px;
+    justify-content: right;
     padding-top: 20px;
    
     }
@@ -124,6 +133,7 @@
     padding: 50px;
 
     }
+
 .portfolio-links {
     display: flex;
     padding-top: 50px;
@@ -140,14 +150,11 @@
     box-shadow: 5px 10px 18px #8a817c;
    
 }
-/* .portfolio-text {
-    text-align: center;
-    font-family: 'Raleway';
-    color: #000000;
-} */
 
-.photo-credit {
+.photo-credit a{
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
     color: #0a0908;
     text-decoration: none;
     transition: 0.6s;
@@ -160,6 +167,12 @@
     border-radius: 1px;
 }
 
+.credit {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
 
 .about-container {
     display: flex;
@@ -168,12 +181,6 @@
 
 
 }
-
-/* .container-item {
-    height: 500px;
-    width: 350px;
-
-} */
 
 .hello {
     font-family: 'Raleway';
@@ -185,49 +192,4 @@
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-}
-
-.box {
-    position: relative;
-    padding-top: 50%;
-    width: 50%;
-}
-  
-.picture {
-    display: block;
-    width: 500px;
-    height: 200px;
-    border: 1px solid #8a817c;
-    padding: 10px;
-    box-shadow: 5px 10px 18px #8a817c;
-}
-  
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #8a817c;
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: .5s ease;
-}
-  
-.box:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-  
-.text {
-    color: white#0a0908;
-    font-family: 'Raleway';
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
