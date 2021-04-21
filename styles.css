@@ -75,10 +75,16 @@
     }
 
 
+.welcome-container {
+    position: absolute;
+    left: 200px;
+    top: 325px;
+    z-index: -1;
+}
 .welcome-img {
     display: flex;
-    padding-top: 50px;
-    justify-content: center;
+    padding-top: 0px;
+    justify-content: center; 
 }
 
  .index-img {
@@ -173,10 +179,10 @@
 }
 
 .hello {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-size: 50px;
     padding-top: 100px;
-    writing-mode:vertical-lr;
+    writing-mode: vertical-lr;
     text-orientation: sideways-left;
 
 }
@@ -184,6 +190,10 @@
 .title {
     font-family: 'Raleway';
     font-size: 30px;
-    text-align: center;
-    text-decoration: none;
+    padding-top: 0px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-left;
+}
+.job {
+    font-family: 'Raleway';
 }
