@@ -201,17 +201,23 @@
     color: #415458;
   }
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #8A817C;
+    background-color: #fff;
+    border-color:#415458;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
     
   }
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
+  }
+
+.dropdown-img {
+      height: 200px;
+      width: 200px;
   }
