@@ -15,8 +15,11 @@
 }
 
 .h1 {
+    justify-content: center;
+    width: 50%;
     font-family: 'Raleway', sans-serif;
     color: #0a0908;
+    z-index: 1;
 }
 
 .header {
@@ -170,6 +173,14 @@
     justify-content: center;
 }
 
+.greeting {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+
+}
+
 .about-container {
     display: flex;
     padding-top: 50px;
@@ -195,16 +206,18 @@
     text-orientation: sideways-left;
 }
 .dropdown {
+    padding-top: 55px;
     position: relative;
     display: inline-block;
     font-family: 'Raleway';
-    color: #415458;
+    color: #fff;
+    
   }
   
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #415458;
     border-color:#415458;
     min-width: 160px;
     box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
