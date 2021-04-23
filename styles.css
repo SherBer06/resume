@@ -14,18 +14,13 @@
 
 }
 
-.h1 {
-    justify-content: center;
-    width: 50%;
-    font-family: 'Raleway', sans-serif;
-    color: #0a0908;
-    z-index: 1;
-}
+
 
 .header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 .navigation-wrapper {
@@ -79,15 +74,56 @@
 
 
 .welcome-container {
-    position: absolute;
-    left: 200px;
-    top: 325px;
-    z-index: -1;
+    display: flex;
+    justify-content: center;
 }
 .welcome-img {
-    display: flex;
-    padding-top: 0px;
-    justify-content: center; 
+    position: absolute;
+    padding-top: 90px;
+    opacity: .5;
+    z-index: -1;
+    
+}
+
+.welcomeparagraph {
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 28px;
+    box-shadow: 5px 10px 18px #8a817c;
+    font-family: 'Kristi', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
+    font-size: 175px;
+
+}
+
+
+.h1 {
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #0a0908;
+    z-index: 1;
+}
+
+.givecredit {
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #0a0908;
+    z-index: 1;
+}
+
+.givecredit a:hover {
+    text-decoration: underline;
+    color: #975045;
+    letter-spacing: 1px;
+    border-radius: 1px;
+
 }
 
  .index-img {
@@ -117,14 +153,14 @@
 
  }
 
-.footer {
-    display: flex;
+.copyright {
+    height: 500px;
     font-family: 'Raleway', sans-serif;
     color: #415458;
-    justify-content: right;
     padding-top: 20px;
    
     }
+
 
 .social-icons {
     display: flex;
@@ -137,6 +173,7 @@
     display: flex;
     padding-top: 50px;
     justify-content: space-between;
+    padding-bottom: 50px;
 
 
 }
