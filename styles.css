@@ -77,6 +77,7 @@
     display: flex;
     justify-content: center;
 }
+
 .welcome-img {
     position: absolute;
     padding-top: 90px;
@@ -86,26 +87,25 @@
 }
 
 .welcomeparagraph {
+    text-align: center;
     padding-left: 10px;
     padding-right: 40px;
     padding-bottom: 28px;
     box-shadow: 5px 10px 18px #8a817c;
     font-family: 'Kristi', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: lighter;
     font-size: 175px;
 
 }
 
 
 .h1 {
-    justify-content: center;
-    width: 50%;
-    padding-top: 20px;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #0a0908;
-    z-index: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    
 }
 
 .givecredit {
@@ -126,7 +126,7 @@
 
 }
 
- .index-img {
+.index-img {
     height: 400px;
     width: 800px;
     border: 1px solid #8a817c;
@@ -226,6 +226,13 @@
 
 }
 
+.education-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+
+}
 .hello {
     font-family: 'Raleway';
     font-size: 50px;
@@ -242,6 +249,14 @@
     writing-mode: vertical-lr;
     text-orientation: sideways-left;
 }
+
+/* .title {
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding-top: 0px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-left;
+} */
 .dropdown {
     padding-top: 55px;
     position: relative;
